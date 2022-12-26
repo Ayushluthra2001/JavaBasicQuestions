@@ -12,7 +12,7 @@ class Main {
         int d=scan.nextInt();
         int e=scan.nextInt();
         int sum=a+b+c+d+e;
-        int percent=(sum/500)*100;
+        int percent=(sum*100)/500;
         if(percent>=80) System.out.println("A");
         else if(percent<80 && percent>=60) System.out.println("B");
         else if(percent<60 && percent>=40) System.out.println("C");
